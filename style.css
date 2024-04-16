@@ -1,0 +1,299 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 1em;
+    width: 90%;
+    max-width: 1200px;
+}
+
+header {
+    padding: 20px;
+}
+
+
+
+.logo {
+    color: #000000;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+span {
+    color: blue;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #c5c4c4;
+}
+
+
+.header-text {
+    position: relative;
+}
+
+.header-img img {
+    position: absolute;
+    top: -20px;
+    /* Adjust this value as needed */
+    right: 50px;
+    border-radius: 1em;
+    width: 30%;
+}
+
+
+
+.header-text p {
+    margin-top: 150px;
+    /* Adjust top margin */
+    margin-bottom: 30px;
+    /* Adjust bottom margin */
+    margin-left: 30px;
+    /* Adjust left margin */
+    margin-right: 30px;
+    /* Adjust right margin */
+    font-size: 40px;
+}
+
+.header-text h1 {
+    margin: 50px 30px 80px;
+    /* Shorten the shorthand */
+    font-size: 60px;
+}
+
+.contacts button {
+    margin: 50px 30px 30px;
+    /* Shorten the shorthand */
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.about-row {
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+}
+
+.about-col-1 {
+    flex: 0 0 auto;
+    /* Don't grow or shrink, maintain width */
+    margin-right: 20px;
+    /* Adjust as needed */
+}
+
+.about-col-2 {
+    flex: 1 1 auto;
+    /* Grow and shrink equally */
+    margin: 30px;
+}
+
+.about-col-2 h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-col-2 p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 30px 0;
+    /* Adjust vertical margin */
+}
+
+.about-col-2 h3 {
+    font-size: 25px;
+}
+
+.about-col-2 ul {
+    font-size: 25px;
+    margin: 30px 0;
+    /* Adjust vertical margin */
+}
+
+#service h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 30px;
+    padding: 40px;
+}
+
+.service3 {
+    display: flex;
+    /* Set flex container */
+    flex-wrap: nowrap;
+    /* Prevent items from wrapping */
+    justify-content: space-between;
+    /* Distribute items evenly along the main axis */
+    align-items: flex-start;
+
+}
+
+.service3 h3 {
+    text-align: center;
+}
+
+.service {
+    flex: content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.service3 :hover {
+    background: #1233d8;
+    transform: translateY(-10px);
+    color: white;
+}
+
+#work {
+    margin-top: 20px;
+}
+
+#work h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: px;
+}
+
+.work {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f9f9f9;
+
+
+
+}
+
+.work h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.work p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* contact */
+.contact-left {
+    flex-basis: 35%;
+
+}
+
+.contact-right {
+    flex-basis: 60%;
+
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #2a09e8;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #110f0f;
+    display: inline-block;
+    transition: trasnform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #002aff;
+    transform: translateY(-5px);
+
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #002aff;
+}
+
+.contact-right form {
+    width: 100%;
+
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 1px solid blue;
+    outline: #002aff;
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #ffffff;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
